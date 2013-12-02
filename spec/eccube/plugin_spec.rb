@@ -8,7 +8,7 @@ describe Eccube::Plugin do
   describe Eccube::Plugin::CLI do
     subject { Eccube::Plugin::CLI::Main.new }
 
-    [:new, :'hooks', :help, :deploy, :package].each do |key|
+    [:new, :hooks, :help, :deploy, :package].each do |key|
       it "should have a #{key} command" do
         expect(subject).to respond_to(key)
       end

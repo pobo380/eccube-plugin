@@ -1,0 +1,5 @@
+---
+plugin_code: <%= config[:plugin_code] %>
+author: <%= config[:author] %>
+license: <%= config[:license] %>
+license_url: <%= config[:license_url] %>

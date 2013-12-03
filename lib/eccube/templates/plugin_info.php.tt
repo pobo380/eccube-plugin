@@ -1,0 +1,25 @@
+<?php
+/*
+ * <%= config[:plugin_code] %>
+ * @copyright Copyright (C) <%= config[:year] %> <%= config[:author] %>
+ * @license <%= config[:license_url] %> <%= config[:license] %>
+ */
+
+/**
+ * <%= config[:plugin_code] %>のプラグイン情報
+ *
+ * @package <%= config[:plugin_code] %>
+ * @author <%= config[:author] %>
+ */
+class plugin_info {
+    static $PLUGIN_CODE       = "<%= config[:plugin_code] %>";
+    static $PLUGIN_NAME       = "TODO:プラグイン名";
+    static $CLASS_NAME        = "<%= config[:plugin_code] %>";
+    static $PLUGIN_VERSION    = "0.1";
+    static $COMPLIANT_VERSION = "TODO:対応するEC-CUBEのバージョンの下限(例:2.12.0)";
+    static $AUTHOR            = "<%= config[:author] %>";
+    static $DESCRIPTION       = "TODO:管理画面に表示されるプラグインの説明";
+    static $PLUGIN_SITE_URL   = "TODO:管理画面に表示されるサイトURL";
+    static $LICENSE           = "<%= config[:license] %>";
+}
+?>
